@@ -1,0 +1,54 @@
+html,
+body {
+  height: 100%;
+  line-height: 1;
+}
+
+body {
+  font-family: Roboto;
+  font-style: 12px;
+  color: #000000;
+}
+
+.container {
+  max-width: 1094px;
+  margin: 0 auto;
+  padding: 15px 15px;
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  flex: 0 40%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu a {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1C1B1B;
+}
+
+
+.logo {
+  flex: 0 1 30%;
+}
+
+.logo a {
+  padding-left: 83px;
+
+}
+
+.icons {
+  flex: 0 1 30%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
