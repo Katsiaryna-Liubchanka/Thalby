@@ -14,6 +14,9 @@ body {
   max-width: 1094px;
   margin: 0 auto;
   padding: 15px 15px;
+}
+
+header .container {
   display: flex;
   align-items: center;
 }
@@ -24,7 +27,7 @@ body {
 
 ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .menu a {
@@ -51,4 +54,54 @@ ul {
   display: flex;
   justify-content: end;
   align-items: center;
+}
+
+.shop-now {
+  background-color: #F0EFEB;
+  padding: 10px 0 24px;
+}
+
+.shop-now .container {
+  display: flex;
+  align-items: center;
+}
+
+.shop-now-text {
+  flex: 0 1 50%;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  padding-bottom: 55px;
+}
+
+.shop-now-text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  padding-bottom: 40px;
+}
+
+.shop-now-image {
+  flex: 0 1 50%;
+}
+
+.shop-now-image img {
+  width: 100%;
+}
+
+.button {
+  padding: 7px 23px 9px;
+  color: white;
+  background-color: #000000;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
 }
