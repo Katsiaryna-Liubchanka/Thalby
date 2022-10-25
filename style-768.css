@@ -1,0 +1,17 @@
+@media (width >=768px) and (width < 992px) {
+  .menu {
+    flex: 0 1 60%;
+  }
+
+  .menu a {
+    font-size: 18px;
+  }
+
+  .logo {
+    flex: 0 1 20%;
+  }
+
+  .icons {
+    flex: 0 1 20%;
+  }
+}
