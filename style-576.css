@@ -79,4 +79,23 @@
   .icons a {
     padding-right: 10px;
   }
+
+  .shop-now .container {
+    flex-direction: column;
+  }
+
+  .shop-now-text {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 35px;
+    line-height: 50px;
+    padding: 10px 0 5px;
+  }
+
+  .shop-now-text p {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
 }
