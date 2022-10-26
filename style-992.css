@@ -15,4 +15,20 @@
   .icons {
     flex: 0 1 25%;
   }
+
+  .sellers {
+    gap: 20px;
+  }
+
+  .seller-image {
+    width: 100%;
+  }
+
+  .guides-text p {
+    padding-bottom: 20px;
+  }
+
+  .guides h2:last-child {
+    padding-top: 20px;
+  }
 }
