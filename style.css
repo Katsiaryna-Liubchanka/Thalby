@@ -146,6 +146,10 @@ h1 {
   flex: 0 1 33.333%;
 }
 
+.seller-image {
+  width: 100%;
+}
+
 .seller-text {
   text-align: center;
   max-width: 156px;
