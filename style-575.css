@@ -1,4 +1,4 @@
-@media (width >=576px) and (width < 768px) {
+@media (width < 576px) {
 
   .icon-menu {
     display: flex;
@@ -45,7 +45,7 @@
   nav:target {
     left: 0;
   }
-  
+
   header ul {
     flex-direction: column;
     justify-content: center;
@@ -69,8 +69,8 @@
   }
 
   .logo a {
-  padding: 0;
-}
+    padding: 0;
+  }
 
   .icons {
     flex: 0 1 33.33%;

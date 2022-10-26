@@ -105,3 +105,72 @@ h1 {
   font-size: 17px;
   line-height: 20px;
 }
+
+.guides .container {
+  padding: 60px 0 240px;
+}
+
+.guides-text {
+  padding: 0 0 51px;
+  text-align: center;
+}
+
+.guides-text h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  padding-bottom: 27px;
+}
+
+.guides-text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  padding-bottom: 47px;
+}
+
+.guides h2:last-child {
+  padding: 40px 0 0 0;
+}
+
+.sellers {
+  display: flex;
+  gap: 60px;
+}
+
+.seller {
+  flex: 0 1 33.333%;
+}
+
+.seller-text {
+  text-align: center;
+  max-width: 156px;
+  margin: auto;
+}
+
+.seller h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  padding: 27px 0 17px;
+}
+
+.seller p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  padding-bottom: 10px;
+}
+
+.seller button {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  background-color: white;
+  text-decoration-line: underline;
+}
