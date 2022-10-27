@@ -31,4 +31,12 @@
   .guides h2:last-child {
     padding-top: 20px;
   }
+
+  .conductor-text p {
+    font-size: 25px;
+  }
+
+  .conductor-text button {
+    font-size: 25px;
+  }
 }

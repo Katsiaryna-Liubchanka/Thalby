@@ -127,6 +127,7 @@
   }
 
   .seller {
+    display: none;
     padding-bottom: 20px;
   }
 
@@ -137,4 +138,25 @@
   .seller button {
     font-size: 20px;
   }
+
+    
+  .conductor .container {
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 0 30px 0;
+  }
+
+  .conductor-text {
+    text-align: center;
+  }
+
+  .conductor-text p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .conductor-text button {
+    font-size: 25px;
+  }
+
 }

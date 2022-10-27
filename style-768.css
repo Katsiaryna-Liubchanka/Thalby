@@ -56,4 +56,13 @@
   .seller button {
     font-size: 20px;
   }
+
+  .conductor-text p {
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .conductor-text button {
+    font-size: 20px;
+  }
 }

@@ -1,8 +1,8 @@
 html,
 body {
   height: 100%;
-  width:100%; 
-  overflow-x:hidden;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -180,4 +180,60 @@ h1 {
   line-height: 20px;
   background-color: white;
   text-decoration-line: underline;
+}
+
+.conductor .container {
+  display: flex;
+  padding: 75px 15px 50px;
+  align-items: center;
+  gap: 50px;
+}
+
+.conductor-image {
+  flex: 0 1 40%;
+}
+
+.conductor:first-child {
+  background-color: #F0F0F0;
+}
+
+.conductor:nth-child(2) {
+  background-color: #E0E0E0;
+}
+
+.conductor:last-child {
+  background-color: #F0F0F0;
+}
+
+.conductor-text {
+  flex: 0 1 60%;
+  max-width: 532px;
+}
+
+.conductor-text h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  padding-bottom: 31px;
+}
+
+.conductor-text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  padding-bottom: 31px;
+}
+
+.conductor-text button {
+  font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 20px;
+text-decoration-line: underline;
+}
+
+.conductor-image img {
+  width: 100%;
 }
