@@ -139,7 +139,7 @@
     font-size: 20px;
   }
 
-    
+
   .conductor .container {
     flex-direction: column;
     gap: 20px;
@@ -159,4 +159,27 @@
     font-size: 25px;
   }
 
+  .features {
+    padding: 40px 0 100px;
+  }
+
+  .features-block-text h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .features-block {
+    grid-row-gap: 50px;
+  }
+
+  .feature-text {
+    font-size: 25px;
+    max-width: 180px;
+  }
+
+
+  .feature {
+    width: 45%;
+    max-width: none;
+  }
 }

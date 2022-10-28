@@ -258,12 +258,14 @@ h1 {
 .features-block {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  grid-column-gap: 24px;
+  grid-row-gap: 110px;
 }
 
 .feature {
-  flex: 0 1 33.333%;
+  width: 33%;
   max-width: 338px;
+
 }
 
 .feature-image {

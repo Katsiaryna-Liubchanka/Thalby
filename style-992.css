@@ -39,4 +39,18 @@
   .conductor-text button {
     font-size: 25px;
   }
+
+  .features {
+    padding: 100px 0 100px;
+  }
+
+  .features-block {
+    grid-row-gap: 70px;
+  }
+
+  .feature { 
+  width: 48%;
+  max-width: none;
+}
+
 }
