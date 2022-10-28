@@ -205,4 +205,16 @@
   .keep-in-touch {
     padding: 30px 0 50px;
   }
+
+  footer .network {
+    margin-bottom: 50px;
+  }
+  
+  .allinfo .column {
+    padding-left: 30px;
+  }
+  
+  .footer-menu .column:first-child {
+    display: none;
+  }
 }
