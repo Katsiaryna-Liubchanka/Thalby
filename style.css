@@ -38,6 +38,11 @@ ul {
   font-size: 16px;
   line-height: 26px;
   color: #1C1B1B;
+  transition: all 0.3s;
+}
+
+.menu a:hover {
+  color: #CCCC33;
 }
 
 
@@ -105,6 +110,11 @@ h1 {
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  background-color: #CCCC33;
 }
 
 .guides .container {
@@ -180,6 +190,11 @@ h1 {
   line-height: 20px;
   background-color: white;
   text-decoration-line: underline;
+  transition: all 0.3s;
+}
+
+.seller button:hover {
+  color: #CCCC33;
 }
 
 .conductor .container {
@@ -231,7 +246,12 @@ h1 {
   font-weight: 700;
   font-size: 17px;
   line-height: 20px;
+  background-color: inherit;
   text-decoration-line: underline;
+  transition:  all 0.3s;
+}
+.conductor-text button:hover {
+color: #CCCC33;
 }
 
 .conductor-image img {
@@ -275,6 +295,13 @@ h1 {
   border-radius: 35px;
   margin: auto;
   margin-bottom: 26px;
+  transition: all 0.5;
+}
+
+.feature-image:hover {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
 }
 
 .feature-image-2 {
@@ -368,6 +395,11 @@ h1 {
   text-decoration-line: underline;
   padding-top: 42px;
   background-color: inherit;
+  transition: all 0.3s;
+}
+
+.interview-text button:hover {
+  color: #CCCC33;
 }
 
 .interview-background {
@@ -476,7 +508,11 @@ font-size: 14px;
 line-height: 21px;
 color: white;
 padding-top: 12px;
+transition: all 0.3s;
+}
 
+footer p:hover {
+  color: #CCCC33;
 }
 
 footer .text {
