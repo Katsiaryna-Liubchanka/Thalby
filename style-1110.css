@@ -8,4 +8,10 @@
     padding: 100px 0 100px;
   }
 
+  
+  .feature { 
+    width: 31%;
+    max-width: none;
+  }
+
 }

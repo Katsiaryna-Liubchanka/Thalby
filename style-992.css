@@ -53,4 +53,8 @@
   max-width: none;
 }
 
+.interview-block {
+  gap: 50px;
+}
+
 }

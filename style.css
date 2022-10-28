@@ -306,3 +306,74 @@ h1 {
   text-align: center;
   margin: auto;
 }
+
+.interviews {
+position: relative;
+}
+
+.interviews-text h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  max-width: 705px;
+  margin: auto;
+}
+
+.interview-block {
+  display: flex;
+  gap: 100px;
+  padding-top: 102px;
+}
+
+.interview {
+  flex: 0 1 33.333%;
+  z-index: 2;
+}
+
+.interview-image {
+  padding-bottom: 35px;
+}
+
+.interview-text {
+  text-align: center;
+  max-width: 280px;
+}
+
+.interview-text h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.6px;
+  padding-bottom: 40px;
+}
+
+.interviews-text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+  padding-bottom: 2px;
+}
+
+.interview-text button {
+  font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+text-decoration-line: underline;
+padding-top: 42px;
+background-color: inherit;
+}
+
+.interview-background {
+  position: absolute;
+  top: 380px;
+  left: 0;
+  width: 100%;
+  height: 480px;
+  background-color: #F0F0F0;
+}

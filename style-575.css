@@ -139,7 +139,6 @@
     font-size: 20px;
   }
 
-
   .conductor .container {
     flex-direction: column;
     gap: 20px;
@@ -160,7 +159,7 @@
   }
 
   .features {
-    padding: 40px 0 100px;
+    padding: 40px 0 50px;
   }
 
   .features-block-text h2 {
@@ -177,9 +176,29 @@
     max-width: 180px;
   }
 
-
   .feature {
     width: 45%;
     max-width: none;
+  }
+
+  .interview-block {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    gap: 50px;
+  }
+
+  .interviews-text h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .interview-text h3 {
+    padding-bottom: 20px;
+  }
+
+  .interview-text button {
+    padding-top: 20px;
+    font-size: 25px;
   }
 }
